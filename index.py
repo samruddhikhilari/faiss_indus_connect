@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Constants
-VECTOR_DB_PATH = "faiss_indus_connect"
+VECTOR_DB_PATH = "."
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Page configuration

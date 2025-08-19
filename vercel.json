@@ -1,0 +1,19 @@
+{
+  "builds": [
+    {
+      "src": "faiss_indus_connect/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "faiss_indus_connect/index.py"
+    }
+  ],
+  "functions": {
+    "faiss_indus_connect/index.py": {
+      "includeFiles": "faiss_indus_connect/**"
+    }
+  }
+}
