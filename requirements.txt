@@ -6,7 +6,3 @@ sentence-transformers==2.2.2
 faiss-cpu
 python-dotenv==1.0.0
 numpy==1.26.4
-langchain-huggingface==0.0.3
-langchain==0.1.20
-langchain-openai==0.1.20
-langchain-vertex==0.1.20
